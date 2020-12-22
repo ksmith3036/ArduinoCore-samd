@@ -46,3 +46,6 @@
 
 #define BOOT_PIN_MASK (1U << (BOOT_LOAD_PIN & 0x1f))
 
+// Set this flag to let the bootloader enforce read restrictions of flash memory, even if security bit is not set
+#define SECURE_BY_DEFAULT
+
